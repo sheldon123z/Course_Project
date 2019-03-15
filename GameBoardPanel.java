@@ -62,8 +62,8 @@ class GameBoardPanel extends JPanel {
    private static final Color MINE_GUESS_COLOR = Color.YELLOW;
    
    // these two files need to be in a subdir of the location of the .class files
-   private static final String HAPPY_ICON_FILE_NAME = "images/facesmile.gif";
-   private static final String SAD_ICON_FILE_NAME = "images/facedead.gif";
+   private static final String HAPPY_ICON_FILE_NAME = "facesmile.gif";
+   private static final String SAD_ICON_FILE_NAME = "facedead.gif";
    
    private final ImageIcon happyIcon = createImageIcon(HAPPY_ICON_FILE_NAME);
    private final ImageIcon sadIcon = createImageIcon(SAD_ICON_FILE_NAME);
